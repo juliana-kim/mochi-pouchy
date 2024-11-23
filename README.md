@@ -1,2 +1,3 @@
-# mochi-pouchy
-Cute and easy blockchain wallet.
+# Mochi Pouchy
+
+This is a blockchain wallet example.
