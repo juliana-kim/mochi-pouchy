@@ -32,27 +32,27 @@ export const globalStyles = css`
         font-display: swap;
         src: url(${PretendardMedium}) format('woff2');
     }
-    
+
     :root {
         --colors-colors-default-Violet: ${palette.light.colors.default.Violet};
         --colors-colors-default-Violet100: ${palette.light.colors.default
-        .Violet100};
+                .Violet100};
         --colors-colors-default-Violet200: ${palette.light.colors.default
-        .Violet200};
+                .Violet200};
         --colors-colors-default-Violet300: ${palette.light.colors.default
-        .Violet300};
+                .Violet300};
         --colors-colors-default-Violet400: ${palette.light.colors.default
-        .Violet400};
+                .Violet400};
         --colors-colors-default-Violet500: ${palette.light.colors.default
-        .Violet500};
+                .Violet500};
         --colors-colors-default-Violet600: ${palette.light.colors.default
-        .Violet600};
+                .Violet600};
         --colors-colors-default-Violet700: ${palette.light.colors.default
-        .Violet700};
+                .Violet700};
         --colors-colors-default-Violet800: ${palette.light.colors.default
-        .Violet800};
+                .Violet800};
         --colors-colors-default-Violet900: ${palette.light.colors.default
-        .Violet900};
+                .Violet900};
         --colors-colors-default-Blue: ${palette.light.colors.default.Blue};
         --colors-colors-default-Blue100: ${palette.light.colors.default.Blue100};
         --colors-colors-default-Blue200: ${palette.light.colors.default.Blue200};
@@ -83,25 +83,26 @@ export const globalStyles = css`
         --colors-colors-default-Green700: ${palette.light.colors.default.Green700};
         --colors-colors-default-Green800: ${palette.light.colors.default.Green800};
         --colors-colors-default-Green900: ${palette.light.colors.default.Green900};
+        --colors-colors-default-GreenHeader: ${palette.dark.colors.default.GreenHeader};
         --colors-colors-default-Yellow: ${palette.light.colors.default.Yellow};
         --colors-colors-default-Yellow100: ${palette.light.colors.default
-        .Yellow100};
+                .Yellow100};
         --colors-colors-default-Yellow200: ${palette.light.colors.default
-        .Yellow200};
+                .Yellow200};
         --colors-colors-default-Yellow300: ${palette.light.colors.default
-        .Yellow300};
+                .Yellow300};
         --colors-colors-default-Yellow400: ${palette.light.colors.default
-        .Yellow400};
+                .Yellow400};
         --colors-colors-default-Yellow500: ${palette.light.colors.default
-        .Yellow500};
+                .Yellow500};
         --colors-colors-default-Yellow600: ${palette.light.colors.default
-        .Yellow600};
+                .Yellow600};
         --colors-colors-default-Yellow700: ${palette.light.colors.default
-        .Yellow700};
+                .Yellow700};
         --colors-colors-default-Yellow800: ${palette.light.colors.default
-        .Yellow800};
+                .Yellow800};
         --colors-colors-default-Yellow900: ${palette.light.colors.default
-        .Yellow900};
+                .Yellow900};
         --colors-colors-default-Gray: ${palette.light.colors.default.Gray};
         --colors-colors-default-Gray100: ${palette.light.colors.default.Gray100};
         --colors-colors-default-Gray200: ${palette.light.colors.default.Gray200};
@@ -114,42 +115,42 @@ export const globalStyles = css`
         --colors-colors-default-Gray900: ${palette.light.colors.default.Gray900};
         --colors-colors-default-Black: ${palette.light.colors.default.Black};
         --colors-colors-default-Black_a70: ${palette.light.colors.default
-        .Black_a70};
+                .Black_a70};
         --colors-colors-default-Black_a40: ${palette.light.colors.default
-        .Black_a40};
+                .Black_a40};
         --colors-colors-default-Black_a20: ${palette.light.colors.default
-        .Black_a20};
+                .Black_a20};
         --colors-colors-default-Black_a10: ${palette.light.colors.default
-        .Black_a10};
+                .Black_a10};
         --colors-colors-default-Black_a5: ${palette.light.colors.default.Black_a5};
         --colors-colors-default-Black_a0: ${palette.light.colors.default.Black_a0};
         --colors-colors-default-BlackDimmed: ${palette.light.colors.default
-        .BlackDimmed};
+                .BlackDimmed};
         --colors-colors-default-White: ${palette.light.colors.default.White};
         --colors-colors-default-White_a70: ${palette.light.colors.default
-        .White_a70};
+                .White_a70};
         --colors-colors-default-White_a40: ${palette.light.colors.default
-        .White_a40};
+                .White_a40};
         --colors-colors-default-White_a0: ${palette.light.colors.default.White_a0};
         --colors-colors-default-Red: ${palette.light.colors.default.Red};
         --colors-colors-default-Red200: ${palette.light.colors.default.Red200};
         --colors-colors-default-Red900: ${palette.light.colors.default.Red900};
         --colors-colors-default-KlaytnOrange: ${palette.light.colors.default
-        .KlaytnOrange};
+                .KlaytnOrange};
         --colors-colors-default-EthViolet: ${palette.light.colors.default
-        .EthViolet};
+                .EthViolet};
         --colors-colors-default-PolygonViolet: ${palette.light.colors.default
-        .PolygonViolet};
+                .PolygonViolet};
         --colors-colors-default-KakaoYellow: ${palette.light.colors.default
-        .KakaoYellow};
+                .KakaoYellow};
         --colors-colors-default-Black_a70to0: ${palette.light.colors.default
-        .Black_a70to0};
+                .Black_a70to0};
         --colors-colors-default-White_a0to100: ${palette.light.colors.default
-        .White_a0to100};
+                .White_a0to100};
         --colors-colors-default-White_a0to100v: ${palette.light.colors.default
-        .White_a0to100v};
+                .White_a0to100v};
     }
-    
+
     [data-theme='dark'] {
         --colors-colors-default-Violet: ${palette.dark.colors.default.Violet};
         --colors-colors-default-Violet100: ${palette.dark.colors.default.Violet100};
@@ -191,6 +192,7 @@ export const globalStyles = css`
         --colors-colors-default-Green700: ${palette.dark.colors.default.Green700};
         --colors-colors-default-Green800: ${palette.dark.colors.default.Green800};
         --colors-colors-default-Green900: ${palette.dark.colors.default.Green900};
+        --colors-colors-default-GreenHeader: ${palette.dark.colors.default.GreenHeader};
         --colors-colors-default-Yellow: ${palette.dark.colors.default.Yellow};
         --colors-colors-default-Yellow100: ${palette.dark.colors.default.Yellow100};
         --colors-colors-default-Yellow200: ${palette.dark.colors.default.Yellow200};
@@ -219,7 +221,7 @@ export const globalStyles = css`
         --colors-colors-default-Black_a5: ${palette.dark.colors.default.Black_a5};
         --colors-colors-default-Black_a0: ${palette.dark.colors.default.Black_a0};
         --colors-colors-default-BlackDimmed: ${palette.dark.colors.default
-        .BlackDimmed};
+                .BlackDimmed};
         --colors-colors-default-White: ${palette.dark.colors.default.White};
         --colors-colors-default-White_a70: ${palette.dark.colors.default.White_a70};
         --colors-colors-default-White_a40: ${palette.dark.colors.default.White_a40};
@@ -228,18 +230,18 @@ export const globalStyles = css`
         --colors-colors-default-Red200: ${palette.dark.colors.default.Red200};
         --colors-colors-default-Red900: ${palette.dark.colors.default.Red900};
         --colors-colors-default-KlaytnOrange: ${palette.dark.colors.default
-        .KlaytnOrange};
+                .KlaytnOrange};
         --colors-colors-default-EthViolet: ${palette.dark.colors.default.EthViolet};
         --colors-colors-default-PolygonViolet: ${palette.dark.colors.default
-        .PolygonViolet};
+                .PolygonViolet};
         --colors-colors-default-KakaoYellow: ${palette.dark.colors.default
-        .KakaoYellow};
+                .KakaoYellow};
         --colors-colors-default-Black_a70to0: ${palette.dark.colors.default
-        .Black_a70to0};
+                .Black_a70to0};
         --colors-colors-default-White_a0to100: ${palette.dark.colors.default
-        .White_a0to100};
+                .White_a0to100};
         --colors-colors-default-White_a0to100v: ${palette.dark.colors.default
-        .White_a0to100v};
+                .White_a0to100v};
     }
 
     html,
@@ -332,7 +334,7 @@ export const globalStyles = css`
     }
 
     /* HTML5 display-role reset for older browsers */
-    
+
     article,
     aside,
     details,
@@ -411,7 +413,9 @@ export const globalStyles = css`
         background-color: ${colors.default.White};
     }
 
-    # root {
+    #root {
+        width: 100%;
+        height: 100%;
         min-height: 100%;
         display: flex;
         flex-direction: column;
@@ -419,20 +423,20 @@ export const globalStyles = css`
 
     * {
         font-family:
-            'Pretendard',
-            -apple-system,
-            BlinkMacSystemFont,
-            system-ui,
-            Roboto,
-            'Helvetica Neue',
-            'Segoe UI',
-            'Apple SD Gothic Neo',
-            'Noto Sans KR',
-            'Malgun Gothic',
-            'Apple Color Emoji',
-            'Segoe UI Emoji',
-            'Segoe UI Symbol',
-            sans-serif;
+                'Pretendard',
+                -apple-system,
+                BlinkMacSystemFont,
+                system-ui,
+                Roboto,
+                'Helvetica Neue',
+                'Segoe UI',
+                'Apple SD Gothic Neo',
+                'Noto Sans KR',
+                'Malgun Gothic',
+                'Apple Color Emoji',
+                'Segoe UI Emoji',
+                'Segoe UI Symbol',
+                sans-serif;
         box-sizing: border-box;
         user-select: none;
         touch-action: manipulation;

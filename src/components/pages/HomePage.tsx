@@ -3,6 +3,7 @@ import {useQuery} from "@tanstack/react-query";
 
 import {getUserLogin} from "@src/apis/user.ts";
 import {queryKeys} from "@src/libs/react-query.ts";
+import MainPageTemplate from "@src/components/templates/MainPageTemplate.tsx";
 
 export default function HomePage() {
   const [isLogin, setIsLogin] = useState<string>('NO');
@@ -20,13 +21,13 @@ export default function HomePage() {
   },[userLoginData, isFetched])
 
   return (
-    <div>
+    <MainPageTemplate>
       <p>
         Home!
       </p>
       {isFetched && userLoginData && <p>
         User Login: {isLogin}
       </p>}
-    </div>
+    </MainPageTemplate>
   )
 }

@@ -1,4 +1,3 @@
-import './App.css'
 import ReactQueryClientProvider from "@src/providers/ReactQueryClientProvider.tsx";
 import {Global} from "@emotion/react";
 import {globalStyles} from "@styles/global.ts";
