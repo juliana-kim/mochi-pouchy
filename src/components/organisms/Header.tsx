@@ -39,6 +39,11 @@ const HomeLink = styled(Link)`
   :hover {
       background-color: ${colors.default.Green500};
   }
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* 부드러운 전환 효과 */
+  :active {
+      background-color: ${colors.default.Green};
+  }
 `
 
 const HomeImg = styled.img`
@@ -65,6 +70,11 @@ const QRButton = styled.button`
     :hover {
         background-color: ${colors.default.Green500};
         border-color: transparent;
+    }
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* 부드러운 전환 효과 */
+    :active {
+        background-color: ${colors.default.Green};
     }
 `
 
