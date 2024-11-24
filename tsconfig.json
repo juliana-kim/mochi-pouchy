@@ -28,10 +28,13 @@
     "paths": {
       "@src/*": ["src/*"],
       "@styles/*": ["src/styles/*"],
-      "@component/*": ["src/component/*"],
+      "@components/*": ["src/components/*"],
+      "@contexts/*": ["src/contexts/*"],
+      "@errors/*": ["src/errors/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@libs/*": ["src/libs/*"],
       "@utils/*": ["src/utils/*"],
-      "@types/*": ["src/types/*"],
-      "@hooks/*": ["src/hooks/*"]
+      "@providers/*": ["src/providers/*"]
     }
   },
   "include": ["src"],

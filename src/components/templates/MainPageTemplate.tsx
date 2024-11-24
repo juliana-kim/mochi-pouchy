@@ -1,11 +1,13 @@
 import Header from "@src/components/organisms/Header.tsx";
 import styled from "@emotion/styled";
+import NavigationTab from "@components/molecules/NavigationTab.tsx";
 
 export default function MainPageTemplate({children}: {children: React.ReactNode}  ) {
   return (
     <PageWrapper>
-      <Header/>
+      <Header />
       {children}
+      <NavigationTab />
     </PageWrapper>
   )
 }

@@ -1,4 +1,4 @@
-import {ValueOf} from "@/src/types.ts";
+import { ValueOf } from "@src/types/common";
 
 export const FontWeight = {
     Bold: 700,

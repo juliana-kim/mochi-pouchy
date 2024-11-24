@@ -1,14 +1,16 @@
-import ReactQueryClientProvider from "@src/providers/ReactQueryClientProvider.tsx";
 import {Global} from "@emotion/react";
 import {globalStyles} from "@styles/global.ts";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {Suspense} from "react";
 
-import GlobalErrorBoundary from "@src/errors/errors.tsx";
-import HomePage from "@src/components/pages/HomePage.tsx";
-import TokenPage from "@src/components/pages/TokenPage.tsx";
-import NotFound from "@src/components/pages/NotFound.tsx";
-import TokenDetailPage from "@src/components/pages/TokenDetailPage.tsx";
+import ReactQueryClientProvider from "@providers/ReactQueryClientProvider";
+import GlobalErrorBoundary from "@errors/errors";
+import HomePage from "@components/pages/HomePage";
+import TokenPage from "@components/pages/TokenPage";
+import NotFound from "@components/pages/NotFound";
+import TokenDetailPage from "@components/pages/TokenDetailPage";
+import NFTPage from "@components/pages/NFTPage";
+import NFTDetailPage from "@components/pages/NFTDetailPage";
 
 function App() {
 
@@ -22,7 +24,11 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="token">
               <Route index element={<TokenPage />}/>
-              <Route path={":ca"} element={<TokenDetailPage />}/>
+              <Route path=":ca" element={<TokenDetailPage />}/>
+            </Route>
+            <Route path="nft">
+              <Route index element={<NFTPage />} />
+              <Route path=":ca" element={<NFTDetailPage />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
