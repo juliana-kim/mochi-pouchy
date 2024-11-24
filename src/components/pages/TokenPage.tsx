@@ -1,5 +1,7 @@
+import MainPageTemplate from "@components/templates/MainPageTemplate.tsx";
+
 export default function TokenPage() {
   return (
-    <div>Token Page</div>
+    <MainPageTemplate>Token Page</MainPageTemplate>
   )
 }

@@ -1,7 +1,8 @@
 import {Link} from "react-router-dom";
+import styled from "@emotion/styled";
+
 import HomeImage from '@styles/assets/home.svg'
 import QRCodeImage from '@styles/assets/qr-code.svg'
-import styled from "@emotion/styled";
 import {colors} from "@styles/colors.ts";
 
 export default function Header() {
