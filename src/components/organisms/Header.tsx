@@ -12,7 +12,7 @@ export default function Header() {
       </HomeLink>
       <Title>Mochi Pouchy</Title>
       <QRButton>
-        <QRImg src={QRCodeImage} alt="Turn on camera to scan QRCode"/>
+        <QRImg src={QRCodeImage} alt="Turn on camera to scan QRCode" onClick={() => console.log('Todo: turn on camera to scan QR Code')}/>
       </QRButton>
     </HeaderWrapper>
   )
