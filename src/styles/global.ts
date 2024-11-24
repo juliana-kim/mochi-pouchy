@@ -407,6 +407,8 @@ export const globalStyles = css`
     body {
         width: 100%;
         height: 100%;
+        min-width: 320px;
+        min-height: 100vh;
         margin: 0 !important;
         padding: 0 !important;
         ${typography.K_14M}; // 기본폰트 설정
@@ -416,7 +418,7 @@ export const globalStyles = css`
     #root {
         width: 100%;
         height: 100%;
-        min-height: 100%;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
     }

@@ -34,6 +34,11 @@ const HomeLink = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 4px;
+  background-color: transparent;
+  :hover {
+      background-color: ${colors.default.Green500};
+  }
 `
 
 const HomeImg = styled.img`
@@ -55,6 +60,12 @@ const QRButton = styled.button`
     align-items: center;
     justify-content: center;
     padding: unset;
+    border-radius: 4px;
+    background-color: transparent;
+    :hover {
+        background-color: ${colors.default.Green500};
+        border-color: transparent;
+    }
 `
 
 const QRImg = styled.img`
