@@ -10,7 +10,7 @@ import {viteMockServe} from "vite-plugin-mock";
  *  - mock server 설정
  * */
 // https://vite.dev/config/
-export default defineConfig(({ command, mode }) => {
+export default defineConfig(({ command }) => {
   return {
     plugins: [
       react({
