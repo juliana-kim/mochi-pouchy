@@ -19,5 +19,8 @@ const queryClientOptions: QueryClientConfig = {
 export const queryClient = new QueryClient(queryClientOptions);
 
 export const queryKeys = {
-  getUser: ['getUser']
+  getUser: ['getUser'],
+  getWalletNFT: ['getWalletNFT'],
+  getWalletFT: ['getWalletFT'],
+  getMetadata: (token_url: string) => ['getMetadata', token_url]
 }
