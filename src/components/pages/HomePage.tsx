@@ -44,7 +44,7 @@ const NoticeWrapper = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 24px 16px;
+  padding: 16px 24px;
   gap: 8px;
 `;
 
